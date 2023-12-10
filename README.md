@@ -9,12 +9,12 @@ Step3:cd build and run 'pintos-mkdisk filesys.dsk --filesys-size=2' that will cr
 
 Step4 :run ' pintos -f -q'.
 
-Step 5:And you must find the echo.c  in the src/example and copy link it.
+Step 5: run 'make' in src/example
 
-run 'pintos -p ../../examples/echo -a echo -- -q' ( replace by link of echo.c)
+Step 6: run 'pintos -p ../../examples/echo -a echo -- -q' ( replace by link of echo.c)
 
-Step 6:pintos -q run 'echo x'
+Step 7:pintos -q run 'echo x'
 
-Step 7 : run ' make check ' and waiting for this process,get the result of test cases
+Step 8 : run ' make check ' and waiting for this process,get the result of test cases
 
 
