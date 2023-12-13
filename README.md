@@ -11,7 +11,7 @@ Step4 :run ' pintos -f -q'.
 
 Step 5: run 'make' in src/example
 
-Step 6: run 'pintos -p ../../examples/echo -a echo -- -q' ( replace by link of echo.c)
+Step 6:  in src/userprog/build run 'pintos -p ../../examples/echo -a echo -- -q' ( replace by link of echo.c)
 
 Step 7:pintos -q run 'echo x'
 
